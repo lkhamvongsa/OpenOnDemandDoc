@@ -25,5 +25,5 @@ markdown_extensions:
       alternate_style: true
 
 # page tree
-nav:
-    - Home: index.md
+#nav:
+#    - Home: index.md

@@ -1,6 +1,6 @@
 # Getting started
 
-To connect to Open OnDemand, visit https://ondemand.cluster.france-bioinformatique.fr
+To connect to Open OnDemand, visit [https://ondemand.cluster.france-bioinformatique.fr](https://ondemand.cluster.france-bioinformatique.fr)
 
 The first page of IFB Open OnDemand will bring you to a login prompt. Use your IFB cluster account to login.
 

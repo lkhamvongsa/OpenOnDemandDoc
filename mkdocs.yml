@@ -1,0 +1,29 @@
+site_name: Open OnDemand hosted by IFB cluster
+repo_url: https://github.com/lkhamvongsa/OpenOnDemandDoc
+repo_name: lkhamvongsa/OpenOnDemandDoc
+copyright: IFB 2024-Present | Licenced under Creative Commons by Share Alike 4.0 International
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# page tree
+nav:
+    - Home: index.md

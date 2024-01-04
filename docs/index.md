@@ -6,7 +6,7 @@ The OnDemand portal serves as a unified, browser-based gateway to all your high-
 
 Open OnDemand simplifies tasks by offering a graphical interface to view, edit, download, and upload files. Users can manage and create job templates for the IFB cluster, as well as access various interactive applications like Virtual Desktop, Jupyter Notebooks, RStudio and more. These functionalities are performed through a web browser, requiring minimal familiarity with Linux and scheduler commands.
 
-![Homepage](../assets/img/OpenOnDemand_home_IFB.png)
+![Homepage](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/OpenOnDemand_home_IFB.png)
 
 ## Highlights
 

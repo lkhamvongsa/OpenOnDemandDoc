@@ -19,15 +19,31 @@ Selecting one of the file spaces takes you to a page that lets you navigate thro
 
 ![Files](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Files.png)
 
+!!! Tip
+
+    The projects space contains all the "projects" directories hosted on the infrastructure. Use the text box filter to find your project **quickly**.
+
+![Project_filter](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Projects_filter.jpg)
+
 
 !!! Warning "Attention"
 
-    The projects space contains all the "projects" directories hosted on the infrastructure. When you do not have access to a project, you will see an Error message like the one in the image below. 
+    When you do not have access to a project, you will see an Error message like the one in the image below. 
 
 ![Project_acces_denied](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Projects_acces_denied.png)
 
-!!! Tips 
+## Jobs
 
-    Use the text box filter to find your project quickly. 
+Jobs can be monitored, created, edited and scheduled with the job management tools under the Jobs menu.
 
-![Project_filter](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Projects_filter.png)
+=== "Active Jobs"
+
+    Under the "Active Jobs" tab you can view active jobs. You can choose to view your jobs or all jobs. From this menu you can also cancel your own jobs.
+
+    ![Active_jobs_all](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Active_jobs_all.png)
+
+=== "Job Composer" 
+
+    Create and edit job scripts and schedule jobs under this menu.
+
+    ![Jobs_composer](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Job_composer.png)

@@ -78,3 +78,10 @@ Current supported applications include :
 
  - JupyterLab : JupyterLab is a web-based interactive development environment for notebooks, code and data
  - RStudio Server : RStudio Server is web based version of the RStudio integrated development envrionment (IDE) for R
+
+To find out more about using apps, please consult the following documents :
+
+ - [Starting a JupyterLab session](Starting_JupyterLab_session.md)
+ - [Starting Rstudio server]()
+
+ 

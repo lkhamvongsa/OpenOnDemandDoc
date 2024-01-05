@@ -82,6 +82,6 @@ Current supported applications include :
 To find out more about using apps, please consult the following documents :
 
  - [Starting a JupyterLab session](Starting_JupyterLab_session.md)
- - [Starting Rstudio server]()
+ - [Starting a Rstudio server](Starting_Rstudio_server.md)
 
  

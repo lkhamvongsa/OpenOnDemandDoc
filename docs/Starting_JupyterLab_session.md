@@ -16,12 +16,15 @@ Click Launch to submit the JupyterLab job to the queue. The wait time depends on
 
 ![JupyterLab_starting](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/JupyterLab_starting.png)
 
-When JupyterLab is ready (running) click on "Connect to Jupyter". Your JupyterLab session will be opened in a new tab.
+When JupyterLab is ready (running) click on "**Connect to Jupyter**". Your JupyterLab session will be opened in a new tab.
 
 ![JupyterLab_running](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/JupyterLab_running.png)
 
 The JupyterLab launcher offers a collection of notebook editors, consoles and application like a Unix terminal, a diagram or text editor.
 
-![JupyterLab](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/JupyterLab.png)
+!!! Tip
 
+    When you choose to create a new notebook by click a notebook icon, **make sure that the file navigation panel located at the left is pointing to a directory where you have write access**. Otherwise, JupyterLab will trigger an error message telling that you can't create a new notebook file.
+
+![JupyterLab](https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/JupyterLab.png)
 

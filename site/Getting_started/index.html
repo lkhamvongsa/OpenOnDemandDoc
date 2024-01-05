@@ -12,6 +12,8 @@
         <link rel="prev" href="..">
       
       
+        <link rel="next" href="../Starting_JupyterLab_session/">
+      
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.19">
     
@@ -273,10 +275,54 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#clusters-shell-access" class="md-nav__link">
+    Clusters (Shell Access)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactive-apps" class="md-nav__link">
+    Interactive Apps
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Starting_JupyterLab_session/" class="md-nav__link">
+        Starting a JupyterLab session
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Starting_Rstudio_server/" class="md-nav__link">
+        Starting a Rstudio server
+      </a>
     </li>
   
 
@@ -328,6 +374,20 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#clusters-shell-access" class="md-nav__link">
+    Clusters (Shell Access)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interactive-apps" class="md-nav__link">
+    Interactive Apps
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -363,7 +423,7 @@ Selecting one of the file spaces takes you to a page that lets you navigate thro
 </div>
 <p><img alt="Project_filter" src="https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Projects_filter.jpg" /></p>
 <div class="admonition warning">
-<p class="admonition-title">Attention</p>
+<p class="admonition-title">Warning</p>
 <p>When you do not have access to a project, you will see an Error message like the one in the image below. </p>
 </div>
 <p><img alt="Project_acces_denied" src="https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Projects_acces_denied.png" /></p>
@@ -381,6 +441,36 @@ Selecting one of the file spaces takes you to a page that lets you navigate thro
 </div>
 </div>
 </div>
+<h2 id="clusters-shell-access">Clusters (Shell Access)</h2>
+<p>The Clusters menu offers shell access to the login node within the IFB cluster. This shell terminal operates similarly to various other tools providing terminal access.</p>
+<p>Upon initiating the Terminal, you will be prompted to enter your IFB cluster account password. Once entered successfully (no characters will appear on the screen as you type), your shell session on the login node will begin.</p>
+<p><img alt="Shell_access" src="https://raw.githubusercontent.com/lkhamvongsa/OpenOnDemandDoc/main/docs/assets/img/Shell_access.png" /></p>
+<p>From here, you can work on the cluster using command line to run SLURM commands. If you are new to SLURM, please go through our documentations :</p>
+<ul>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_at/">SLURM at IFB Core</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_user_guide/">SLURM user guide</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_examples/">SLURM examples</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_GPU/">SLURM GPU</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_advanced_guide/">SLURM advanced guide</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/slurm_cookbook/">SLURM Cookbook</a></li>
+<li><a href="https://ifb-elixirfr.gitlab.io/cluster/doc/slurm/sinteractive/">SLURM Running interactive jobs</a></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Please don't run any bioinformatics tools directly on the login node. The login node is not a compute node ; it has no resources to run heavy calculation.</p>
+</div>
+<h2 id="interactive-apps">Interactive Apps</h2>
+<p>The Interactive Apps menu contains options to launch certain applications that have graphical user interfaces (GUIs) for interactive use on IFB cluster. Each application is running in a dedicated SLURM jobs with the resources (RAM, CPU, GPU) you request.</p>
+<p>Current supported applications include :</p>
+<ul>
+<li>JupyterLab : JupyterLab is a web-based interactive development environment for notebooks, code and data</li>
+<li>RStudio Server : RStudio Server is web based version of the RStudio integrated development envrionment (IDE) for R</li>
+</ul>
+<p>To find out more about using apps, please consult the following documents :</p>
+<ul>
+<li><a href="../Starting_JupyterLab_session/">Starting a JupyterLab session</a></li>
+<li><a href="../Starting_Rstudio_server/">Starting a Rstudio server</a></li>
+</ul>
 
 
 
@@ -416,6 +506,21 @@ Selecting one of the file spaces takes you to a page that lets you navigate thro
             </div>
           </a>
         
+        
+          
+          <a href="../Starting_JupyterLab_session/" class="md-footer__link md-footer__link--next" aria-label="Next: Starting a JupyterLab session" rel="next">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Starting a JupyterLab session
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
